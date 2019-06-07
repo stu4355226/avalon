@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-function DenseAppBar() {
+export default function DenseAppBar() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -25,11 +25,10 @@ function DenseAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit">
-            I dont know what should I put right now
+            Avalon
           </Typography>
         </Toolbar>
       </AppBar>
     </div>
   );
 }
-export default DenseAppBar;
